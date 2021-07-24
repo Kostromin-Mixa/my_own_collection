@@ -1,5 +1,0 @@
----
-path=dict(type='int', required=False)
-name=dict(type='str', required=False, default='example'),
-content=dict(type='str', required=True)
-force=dict(type='bool', required=False, default=False)

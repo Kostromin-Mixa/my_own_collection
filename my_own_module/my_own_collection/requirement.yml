@@ -1,5 +1,0 @@
----
-  - src: my_own_namespace/my_own_collection/roles
-    scm: local
-    version: "1.0"
-    name: Create new file
