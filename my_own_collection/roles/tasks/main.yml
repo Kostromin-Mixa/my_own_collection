@@ -1,0 +1,13 @@
+---
+- name: my first module
+  hosts: localhost
+  task:
+   - name: get started
+     new_file:
+       name: "file"
+       path: "opt/newfile/"
+       content: "my first module !!!"
+       register: module test
+   - name: dump module test
+     debug:
+       msg: '{{ module test }}'
