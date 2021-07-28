@@ -1,5 +1,5 @@
 ---
-  - src: my_own_collection/roles
-    scm: local
-    version: "1.0"
+  - src: https://github.com/Kostromin-Mixa/my_own_collection.git
+    scm: git
+    version: "1.1"
     name: Create new file
